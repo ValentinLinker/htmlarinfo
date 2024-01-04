@@ -1,0 +1,39 @@
+
+<!--33%-->
+<div class="flexboite rouge">
+    <div class="bleu flex33">Un</div>
+    <div class="bleu flex33">Deux</div>
+    <div class="bleu flex33">Trois</div>
+</div>
+
+<!--25%-->
+<div class="flexboite rouge">
+    <div class="bleu flex25">Un</div>
+    <div class="bleu flex25">Deux</div>
+    <div class="bleuflex25">Trois</div>
+    <div class="bleuflex25">Quatre</div>
+</div>
+<hr>
+
+<style>
+    .flexboite {
+ display: flex;
+flex-direction: row;
+justify-content: space-around;
+/*flex-wrap:wrap;*/
+    }
+
+     .flex25{
+        width:25%;
+     }
+
+    .flex33 {
+        width: 33%;
+    }
+    .rouge {
+        border: 2px dotted red;
+    }
+    .bleu {
+        border: 2px solid blue;
+    }
+    </style>

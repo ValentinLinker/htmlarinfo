@@ -1,0 +1,22 @@
+
+    h1 {
+        color: red;
+    }
+
+    .en_bleu {
+        color: blue
+    }
+
+    #en_vert {
+        color: green
+    }
+
+    <style>
+
+    .viewport100{
+        width: 100vw;
+    }
+
+    </style>
+
+    <img src="img/image.webp" class="viewport100"

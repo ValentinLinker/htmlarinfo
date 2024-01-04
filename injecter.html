@@ -1,0 +1,42 @@
+<style>
+    #button {
+  width: 200px;
+  padding: 50px;
+  background: lightgrey;
+}
+
+.fondvert {
+  background: green;
+}
+</style>
+
+<h1>innerHTML : Injecter du HTML </h1>
+
+<div id="button">Button</div>
+
+<p>
+  Vous pouvez modifier le contenu du bouton en cliquant sur le formulaire, remplir du texte puis cliquer à l'extérieur du bouton
+</p>
+
+<form>
+  <input id="moninput" type="text">
+</form>
+
+<script>
+function valeur() {
+    console.log(document.querySelector('#moninput').value);
+    var maVar = document.querySelector('#moninput').value;
+    button.innerHTML = maVar;
+  }
+  moninput.addEventListener('blur', valeur);
+  
+  function ajout() {
+    moninput.classList.add("fondvert");
+  }
+  
+  function enleve() {
+    moninput.classList.remove("fondvert");
+  }
+  moninput.addEventListener("focus", ajout);
+  moninput.addEventListener("blur", enleve);
+  </script>

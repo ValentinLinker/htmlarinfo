@@ -1,0 +1,25 @@
+<!--Exercice Media Queries :
+
+    Faire h1 surligné en rouge si en dessous de 1000px
+    il sera surligné en bleu si au dessus de 1100 px
+-->
+<style>
+    /*Ci-dessous : CSS media queries */
+    /* 1: max-width */
+    /*Plus petit que 1000px= Bleu */
+@media screen and (max-width:1000px) {
+        h1{
+        background: red;
+    }
+}
+/* 2: <min-width */
+/*Plus grand que 1100px= Rouge*/
+@media screen and (min-width: 1100px) {
+   h1{
+   background:blue;
+}
+}
+</style>
+
+
+    <H1>Mon H1</h1>

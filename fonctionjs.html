@@ -1,0 +1,15 @@
+<script>
+    function calcul_tva (prix_ht)
+    {
+        var prix_ttc = prix_ht * 1.20;
+        return prix_ttc;
+    }
+
+    var sac_a_main = 100;
+    var chapeau = 50;
+    var manteau=239;
+
+    document.write(calcul_tva(sac_a_main) + "<br>");
+    document.write(calcul_tva(manteau) + "<br>");
+    document.write(calcul_tva(chapeau) + "<br>");
+</script>

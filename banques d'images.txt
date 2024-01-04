@@ -1,0 +1,204 @@
+https://pixabay.com/fr/
+https://unsplash.com/
+https://www.pexels.com/fr-fr/
+https://fr.freepik.com/
+https://fr.vecteezy.com/
+https://www.stocklib.fr/
+http://compfight.com/
+https://fotomelia.com/
+https://foter.com/
+https://morguefile.com/photos/Morguefile/1
+https://photostockeditor.com/
+https://picography.co/
+https://www.textures.com/
+https://photos.icons8.com/
+https://burst.shopify.com/
+https://www.stockio.com/
+https://landingstock.com/
+https://visualhunt.com/
+https://www.foodiesfeed.com/
+https://userstock.io/
+https://generated.photos/
+[11:48]
+---
+Inspiration :
+https://dribbble.com/
+https://www.behance.net/
+https://www.lapa.ninja/
+https://uijar.com/
+https://www.uisources.com/
+https://interfaces.convertux.com/
+https://bestwebsite.gallery/
+https://minimal.gallery/
+https://httpster.net/2020/may/
+https://www.webdesign-inspiration.com/fr/
+https://www.awwwards.com/
+https://www.siteinspire.com/
+https://calltoidea.com/
+https://www.webdesignmuseum.org/
+[11:48]
+---
+Icons :
+https://fontawesome.com/
+https://www.flaticon.com/
+https://feathericons.com/
+https://ionicons.com/
+https://icofont.com/
+http://demo.amitjakhu.com/dripicons
+https://iconscout.com/
+https://remixicon.com/
+https://ikonate.com/
+https://iconsvg.xyz/
+https://icons8.com/
+https://thenounproject.com/
+https://www.zwicon.com/
+[11:48]
+---
+Colors :
+https://color.adobe.com/fr/
+https://colorhunt.co/
+https://picular.co/
+https://colordrop.io/
+https://colorwise.io/
+https://huesnap.com/
+https://pigment.shapefactory.co/
+https://www.materialpalette.com/
+http://colorlisa.com/
+https://colorsinspo.com/
+https://color.review/
+[11:48]
+---
+Gradients (dégradés) :
+https://www.grabient.com/
+https://gradienthunt.com/
+https://cssgradient.io/
+https://webgradients.com/
+https://gradienta.io/
+https://www.gradientmagic.com/
+http://colinkeany.com/blend/
+https://uigradients.com/
+https://colorspark.app/
+https://gradients.party/
+[11:49]
+---
+Illustrations :
+https://undraw.co/
+https://www.drawkit.io/
+https://opendoodles.com/
+https://illustrations.co/
+https://www.manypixels.co/
+https://humaaans.com/
+https://getavataaars.com/
+https://personas.draftbit.com/
+https://growwwkit.com/
+https://lukaszadam.com/
+https://storyset.com/
+https://illustratious.com/
+[11:49]
+---
+Animations :
+https://lottiefiles.com/
+https://maxwellito.github.io/vivus-instant/
+https://www.pixeltrue.com/free-illustrations
+https://www.svgator.com/
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Formulaire</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgb(0, 0, 0);
+        }
+
+        h2 {
+            text-decoration-line: underline;
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #666;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #000000;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2f00ff;
+        }
+    </style>
+</head>
+<body>
+
+<form action="/votre-action-de-traitement" method="post">
+    <h2>Inscription</h2>
+
+    <label for="prenom"><i class="fa-solid fa-user"></i> Prénom :</label>
+    <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+
+    <label for="nom"><i class="fa-solid fa-user"></i> Nom :</label>
+    <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+    <label for="email"><i class="fa-solid fa-envelope"></i> Email :</label>
+    <input type="email" id="email" name="email" placeholder="Votre adresse email" required>
+
+    <label for="motdepasse"><i class="fa-solid fa-lock"></i> Mot de passe :</label>
+    <input type="password" id="motdepasse" name="motdepasse" placeholder="Mot de passe" minlength="6" required>
+
+    <label for="confirmer_mot_de_passe"><i class="fa-solid fa-lock"></i> Confirmez votre mot de passe :</label>
+    <input type="password" id="confirmer_mot_de_passe" name="confirmer_mot_de_passe" placeholder="Confirmer votre mot de passe" minlength="6" required>
+
+    <label for="telephone"><i class="fa-solid fa-phone"></i> Numéro de téléphone :</label>
+    <input type="tel" id="telephone" name="telephone"  placeholder="Votre numéro de téléphone" required>
+
+    <label for="adresse"><i class="fa-solid fa-house"></i> Adresse :</label>
+    <input type="adresse" id="adresse" name="adresse" placeholder="Votre adresse" required>
+    
+
+    <label for="postale"><i class="fa-solid fa-house"></i> Code postale :</label>
+    <input type="postale" id="postale" name="postale" placeholder="Code Postale" required>
+
+    <label for="ville"><i class="fa-solid fa-house"></i> Ville :</label>
+    <input type="text" id="ville" name="ville" placeholder="Votre ville" required>
+
+    <input type="submit" value="S'inscrire">
+</form>
+</body>
+</html>
+
+
+
